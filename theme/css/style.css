@@ -99,7 +99,7 @@ a:hover {
   background-color: transparent;
   color: #fff;
   padding: 10px 30px;
-  border-radius: 0;
+  border-radius: 10px;
   transition: all 0.3s ease-in 0s;
 }
 .btn:focus {
@@ -112,8 +112,9 @@ a:hover {
 }
 .btn-transparent:hover,
 .btn-transparent:focus {
-  background-color: #57cbcc;
-  border-color: #57cbcc !important;
+  background-color: #f74c06;
+
+  border-color: #f74c06 !important;
   color: #fff;
 }
 
@@ -590,6 +591,7 @@ a:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/hero/comp-1.jpg");
   background-size: cover;
+  background-position: center;
   height: 100vh;
   position: relative;
   display: flex;
