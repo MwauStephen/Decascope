@@ -552,7 +552,9 @@ a:hover {
   width: 140px;
 }
 .navigation .navigation-menu li a.active {
-  color: #57cbcc !important;
+  color: #f74c06 !important;
+  background: #000;
+  border-radius: 10px;
 }
 .navigation .navigation-menu a {
   padding-left: 15px !important;
@@ -562,8 +564,9 @@ a:hover {
 }
 .navigation .navigation-menu a:hover,
 .navigation .navigation-menu a:focus {
-  background: transparent;
-  color: #57cbcc !important;
+  background: #f74c06;
+  border-radius: 10px;
+  color: #fff !important;
 }
 
 .navbar-toggle {
