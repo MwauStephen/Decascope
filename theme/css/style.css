@@ -960,8 +960,9 @@ a:hover {
   transition: 0.3s all;
 }
 .portfolio-filter button.active {
-  border: 1px solid #57cbcc;
-  color: #57cbcc;
+  border: 1px solid #ff4500;
+  border-radius: 10px;
+  color: #fff;
 }
 
 .portfolio-items-wrapper .mix {
@@ -1016,7 +1017,7 @@ a:hover {
   color: #555;
 }
 .portfolio-block .caption .search-icon {
-  background: #57cbcc;
+  background: #ff4500;
   width: 45px;
   height: 45px;
   color: #fff;
