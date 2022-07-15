@@ -155,7 +155,7 @@ a:hover {
   height: 1px;
   margin: 15px auto 0;
   position: relative;
-  width: 30%;
+  width: 20%;
 }
 .border:before {
   background-color: #fff;
@@ -166,7 +166,7 @@ a:hover {
   position: absolute;
   top: -4px;
   width: 50px;
-  background-color: #57cbcc;
+  background-color: #f74c06;
 }
 
 .color {
@@ -409,7 +409,7 @@ a:hover {
   color: #fff;
 }
 .title h2 span {
-  color: #57cbcc;
+  color: #f74c06;
 }
 .title p {
   color: #666;
@@ -692,7 +692,7 @@ a:hover {
   margin-bottom: 20px;
 }
 .about .block:hover {
-  border-bottom: 2px solid #57cbcc;
+  border-bottom: 2px solid #f74c06;
 }
 .about .block:hover .icon-box {
   transform: translateY(-10px);
@@ -1037,8 +1037,9 @@ a:hover {
   border-left: 1px solid rgba(236, 239, 241, 0.07);
   border-top: 1px solid rgba(236, 239, 241, 0.07);
   margin-bottom: 40px;
-  box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3),
-    13px 13px 0 rgba(255, 255, 255, 0.7);
+  /* box-shadow: 0 20px 40px rgba(247, 74, 6, 0.281); */
+  box-shadow: 2px 2px 5px rgba(247, 74, 6, 0.3),
+    13px 13px 0 rgba(247, 74, 6, 0.7);
 }
 .service-block .service-icon {
   margin-bottom: 10px;
