@@ -26,6 +26,10 @@ body {
   position: relative;
 }
 
+i {
+  color: #f74c06;
+}
+
 h1,
 h2,
 h3,
@@ -799,9 +803,15 @@ a:hover {
 .call-to-action-2 .btn-main {
   margin-top: 20px;
 }
-
+.contact-info h3 {
+  color: #f74c06;
+  font-weight: 800;
+}
 .contact-us {
   padding-top: 50px;
+}
+.contact-details span {
+  color: #fff;
 }
 
 .contact-form {
@@ -820,12 +830,12 @@ a:hover {
 .contact-form input:hover,
 .contact-form textarea:hover,
 #contact-submit:hover {
-  border-color: #57cbcc;
+  border-color: #f74c06;
 }
 
 #contact-submit {
   border: 1px solid rgba(236, 239, 241, 0.07);
-  background: #57cbcc;
+  background: #f74c06;
   padding: 12px 0;
   width: 100%;
   margin: 0;
@@ -837,6 +847,7 @@ a:hover {
 
 .contact-info p {
   margin-bottom: 25px;
+  color: #fff;
 }
 
 .con-info {
