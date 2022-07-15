@@ -578,7 +578,8 @@ a:hover {
 }
 
 .bg-1 {
-  background-image: url("../images/backgrounds/bg-1.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../images/hero/building.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
